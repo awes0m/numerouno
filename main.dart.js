@@ -91853,22 +91853,20 @@ return A.N(null,r)}})
 return A.O($async$$0,r)},
 $S:11}
 A.aiC.prototype={
-$0(){var s=0,r=A.P(t.H),q=this,p,o,n,m,l
+$0(){var s=0,r=A.P(t.H),q=this,p,o,n,m
 var $async$$0=A.L(function(a,b){if(a===1)return A.M(b,r)
 while(true)switch(s){case 0:s=2
 return A.R(q.a.al5(0),$async$$0)
-case 2:l=b
-if(l!=null){p=B.mF.gHH().dA(l)
-o=document
-n=o.createElement("a")
+case 2:m=b
+if(m!=null){p=B.mF.gHH().dA(m)
+o=v.G
+n=o.document.createElement("a")
 n.href="data:image/png;base64,"+p
 n.download="numerology_result.png"
-m=n.style
-m.display="none"
-o.body.appendChild(n).toString
+n.style.display="none"
+o.document.body.append(n)
 n.click()
-o=n.parentNode
-if(o!=null)o.removeChild(n).toString}o=q.b
+n.remove()}o=q.b
 if(o.e!=null)A.eZ(o,!1).dY()
 return A.N(null,r)}})
 return A.O($async$$0,r)},
